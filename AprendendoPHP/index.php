@@ -12,13 +12,14 @@
 </head>
 <body>
     <main>
-        
+        <form action="./src/models/Autenticar.php" method="post">
+            <p>Faça o Login</p>
+            <label for="nome">Usuário: </label><input type="text" id="nome" name="nome"><br>
+            <br>
+            <label for="senha">Senha: </label><input type="password" id="senha" name="senha"><br>
+            <br>
+            <button type="submit">Enviar</button><button type="reset">Reiniciar</button>
+        </form>
     </main>
 </body>
 </html>
-<?php
-    include('./src/models/Pessoa.php');
-
-    $pessoa1 = new Pessoa("João");
-    var_dump($pessoa1->nome);
-?>
