@@ -1,0 +1,13 @@
+com\javalokura\herancapt2\models\Cachorro.class
+com\javalokura\herancapt2\models\Ingresso.class
+com\javalokura\herancapt2\models\recebe.class
+com\javalokura\herancapt2\models\Pessoa.class
+com\javalokura\herancapt2\models\Administrativo.class
+com\javalokura\herancapt2\models\Miseravel.class
+com\javalokura\herancapt2\models\Pobre.class
+com\javalokura\herancapt2\Main.class
+com\javalokura\herancapt2\models\Gato.class
+com\javalokura\herancapt2\models\Tecnico.class
+com\javalokura\herancapt2\models\Animal.class
+com\javalokura\herancapt2\models\Imovel.class
+com\javalokura\herancapt2\models\Rico.class
