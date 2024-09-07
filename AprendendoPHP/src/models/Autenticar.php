@@ -1,5 +1,5 @@
 <?php
-    include('C:\Users\Admin\Etec-2-semestre\AprendendoPHP\vendor\autoload.php');
+    include('../../vendor/autoload.php');
     
     use APP\models\Usuario;
 
