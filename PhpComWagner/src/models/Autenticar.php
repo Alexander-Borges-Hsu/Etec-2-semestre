@@ -1,11 +1,16 @@
 <?php
-    include('C:\Users\Admin\Etec-2-semestre\PhpEstudos\vendor\autoload.php');
+
+    include('../../vendor/autoload.php');
 
     use APP\models\Usuario;
 
-    $usuario = $_POST['usuario'];
-    $senha = $_POST['senha'];
 
-    $NovoUsuario = new Usuario($usuario, $senha);
+    $usuarioNome = $_POST['usuario'];
+    $usuarioSenha = $_POST['senha'];
+
+    $NovoUsuario = new Usuario($usuarioNome, $usuarioSenha);
+
+    var_dump($NovoUsuario);
+
 
 ?>

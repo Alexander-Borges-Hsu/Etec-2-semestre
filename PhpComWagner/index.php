@@ -15,17 +15,28 @@
     
 </head>
 <body>
-    <main>
-        <h2>Login</h2>
-        <div id="CaixaLogin">
-            <p>Informe seus dados para <br> para efetuar o login</p>
-            <form action="./src/models/Autenticar.php" method="post">
-                <label for="usuario">Usuário: </label><input type="text" placeholder= "Usuário"><br><br>
-                <label for="senha">Senha: </label><input type="password" placeholder= "Senha"><br><br>
-
-                <button type="submit">Logar</button>
-            </form>
-        </div>
+<main class="login-form">
+        <form method="POST" action="./src/models/Autenticar.php">
+            <h1 class="h3 mb-3 fw-normal text-center">Fazer Login</h1>
+            
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Usuário" name="usuario">
+                <label for="floatingInput">Usuário</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Senha" name="senha">
+                <label for="floatingPassword">Senha</label>
+            </div>
+            
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Lembre de mim
+                </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+            <p class="mt-5 mb-3 text-muted text-center">&copy; Alexander, Etec ZL, 2024</p>
+        </form>
     </main>
+
 </body>
 </html>

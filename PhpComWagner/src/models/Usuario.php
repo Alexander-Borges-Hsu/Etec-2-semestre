@@ -5,9 +5,9 @@
         private $usuario;
         private $senha;
 
-        public function __constructor($usuario, $senha){
-            $this->$senha = $senha;
-            $this->$usuario = $usuario;
+        public function __construct($usuario, $senha){
+            $this->senha = $senha;
+            $this->usuario = $usuario;
         }
 
 

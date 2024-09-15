@@ -1,25 +1,14 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: lightcyan;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
 
-    & h2{
-        margin-left:100px ;
-        font-size:50px;
-    }
 }
-
-#CaixaLogin{
-    border: 3px solid black;
-    border-radius: 100px;
-    text-align: center;
-    margin:100px 100px 0 100px;
-    padding:50px;
-
-    & p{
-        font-weight: bold;
-    }
-
-
-
+.login-form {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
 }
