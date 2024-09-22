@@ -1,0 +1,5 @@
+models\Funcionario.class
+models\Pessoa.class
+models\Aluno.class
+com\javalokura\escolade_musica\Main.class
+models\Professor.class
