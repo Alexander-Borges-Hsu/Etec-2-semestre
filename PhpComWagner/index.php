@@ -16,7 +16,7 @@
 </head>
 <body>
 <main class="login-form">
-        <form method="POST" action="./src/models/Autenticar.php">
+        <form method="POST" action="./src/views/Main.php">
             <h1 class="h3 mb-3 fw-normal text-center">Fazer Login</h1>
             
             <div class="form-floating mb-3">
