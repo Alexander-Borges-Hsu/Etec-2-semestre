@@ -17,7 +17,7 @@ public class ArrayList_ex {
         System.out.println(frutas);
         System.out.println("");
         
-        frutas.remove(3);
+        frutas.remove(3);   
         
         System.out.println("Fruta do indice 3 removida");
         System.out.println(frutas);
@@ -25,13 +25,10 @@ public class ArrayList_ex {
         
         System.out.print("Busque uma fruta na ArrayList: ");
         String busca = scan.next();
-        boolean encontrado = frutas.contains(busca);
         
-        if(encontrado){
-            System.out.println("Fruta encontrada: " + busca);
-        }else{
-            System.out.println("Fruta nao encontrada");
-        }
+        BuscarElemento Enviar = new BuscarElemento();
+        Enviar.Buscar(busca, frutas);
+        
         System.out.println("");
         
         ArrayList<Integer> Nums = new ArrayList<Integer>();
@@ -53,8 +50,12 @@ public class ArrayList_ex {
         Nums.add(54);
         
         Collections.sort(Nums);
-        System.out.println("Lista ordenada.");
+        System.out.println("Lista ordenada:");
         System.out.println(Nums);
+        
+        System.out.println("Numeros pares da Lista ordenada: ");
+        
+        Enviar.BuscarPares(Nums);
         
     }
 }
